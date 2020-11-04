@@ -1,0 +1,115 @@
+.policy{
+	margin-top: 58px;
+}
+.policy .policy_mv {
+	padding: 1.09rem 0 1rem;
+	background-image: url(../img/mv_purple.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.policy .policy_mv .section_kasou_ttl  {
+	font-size: 0.44rem;
+	line-height: 1;
+	letter-spacing: 0.2em;
+	color: #fff;
+	z-index: 1;
+	text-align: center;
+}
+.policy .policy_mv .section_kasou_ttl span {
+	display: block;
+	font-size: 0.3rem;
+	line-height: 1;
+	letter-spacing: 0.2em;
+	margin-top: 0.16rem;
+}
+.policy .content {
+	padding-top: 0.73rem;
+}
+.policy .content .top {
+	font-size: 0.16rem;
+	font-weight: 500;
+	text-align: center;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	margin-bottom: 0.68rem;
+}
+.policy .content .list {
+	padding: 0.6rem 0.5rem;
+	box-sizing: border-box;
+	border-top: 1px solid #D1D1D6;
+	border-bottom: 1px solid #D1D1D6;
+	margin-bottom: 1.08rem;
+}
+.policy .content .list .item {
+	list-style-type: none;
+}
+.policy .content .list .item + .item {
+	margin-top: 0.42rem;
+}
+.policy .content .list .item .ttl {
+	color: #00A0B4;
+	font-size: 0.16rem;
+	line-height: 1;
+	letter-spacing: 0.06em;
+	margin-bottom: 0.1rem;
+	font-weight: bold;
+}
+.policy .content .list .item .txt {
+	font-size: 0.16rem;
+	font-weight: 500;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: #181A31;
+}
+@media screen and (max-width:767px) {
+	.policy .policy_mv {
+		padding: 0.7rem 0 0.62rem;
+		background-image: url(../img/mv_purple_sp.jpg);
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	.policy .policy_mv .section_kasou_ttl  {
+		font-size: 0.275rem;
+		letter-spacing: 0.2em;
+	}
+	.policy .policy_mv .section_kasou_ttl span {
+		font-size: 0.1875rem;
+		margin-top: 0.1rem;
+	}
+	.policy .content {
+		padding-top: 0.48rem;
+	}
+	.policy .container1100 {
+		width: 100%;
+		box-sizing: border-box;
+		padding-left: 0.3rem;
+		padding-right: 0.3rem;
+	}
+	.policy .content .top {
+		font-size: 0.16rem;
+		line-height: 1.8125;
+		letter-spacing: 0.03em;
+		margin-bottom: 0.3rem;
+		text-align: left;
+	}
+	.policy .content .list {
+		padding: 0.28rem 0;
+		margin-bottom: 0.8rem;
+	}
+	.policy .content .list .item + .item {
+		margin-top: 0.38rem;
+	}
+	.policy .content .list .item .ttl {
+		font-size: 0.17rem;
+		line-height: 1.823;
+		letter-spacing: 0.06em;
+		margin-bottom: 0.04rem;
+	}
+	.policy .content .list .item .txt {
+		font-size: 0.17rem;
+		line-height: 1.823;
+		letter-spacing: 0.06em;
+	}
+}
